@@ -1,0 +1,59 @@
+/* Type */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #242f39;
+    color: white;
+    padding: 0;
+    border: 0;
+    box-shadow: 0 0 3px rgba(10, 10, 10, 0.8);
+    width: 80rem;
+    position: fixed;
+    height: 32px;
+    z-index: 1000;
+    top: 0;
+}
+
+/* Objekt */
+
+.header-menu-color {
+    font-size: 16px;
+    flex: 1;
+    width: 15rem;
+    top: 0;
+    height: 32px;
+    background: red;
+}
+
+.header-menu-style {
+    display: flex;
+    padding: 0 1.5rem;
+    border: 0;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 32px;
+    left: 0;
+}
+
+.container-header-links {
+    flex: 5;
+}
+
+.container {
+    max-width: 80rem;
+    margin: auto;
+    width: 100%;
+}
+
+/* Utility */
+.position-top {}
