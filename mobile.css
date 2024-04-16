@@ -6,43 +6,39 @@
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #1C242D;
+    color: white;
 }
 
 header {
     display: flex;
     background-color: #242f39;
     color: white;
-    padding: 0;
-    border: 0;
     box-shadow: 0 0 3px rgba(10, 10, 10, 0.8);
-    width: 80rem;
-    position: fixed;
-    height: 32px;
-    z-index: 1000;
-    top: 0;
 }
 
 /* Objekt */
 
-.header-menu-color {
-    font-size: 16px;
-    flex: 1;
-    width: 15rem;
-    top: 0;
+
+.header-menu-content {
+    display: flex;
+    justify-content: space-between;
     height: 32px;
-    background: red;
 }
 
-.header-menu-style {
+.header-menu-left {
     display: flex;
-    padding: 0 1.5rem;
-    border: 0;
     align-items: center;
-    color: white;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 32px;
-    left: 0;
+    font-size: 16px;
+    background: red;
+    gap: 0.5rem;
+    padding: 0 1rem;
+}
+
+.header-menu-right {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
 }
 
 .container-header-links {
@@ -53,6 +49,33 @@ header {
     max-width: 80rem;
     margin: auto;
     width: 100%;
+}
+
+.search-content {
+    display: flex;
+    background-color: #242f39;
+    align-items: center;
+    justify-content: space-around;
+    float: center;
+}
+
+.search-bar {
+    display: flex;
+    flex: 4;
+    background: #1C242D;
+    width: 100%;
+}
+
+.search-button {
+    display: flex;
+    flex: 1;
+    color: greenyellow;
+    background: #242f39;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin: 6px;
 }
 
 /* Utility */
