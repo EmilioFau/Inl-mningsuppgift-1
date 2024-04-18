@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;
     background: #1C242D;
     color: white;
 }
@@ -24,6 +24,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 32px;
+    top: 0;
 }
 
 .header-menu-left {
@@ -57,12 +58,14 @@ header {
     align-items: center;
     justify-content: space-around;
     float: center;
+    padding: 0 0.5rem;
 }
 
 .search-bar {
     display: flex;
     flex: 4;
     background: #1C242D;
+    height: 40px;
     width: 100%;
 }
 
@@ -78,5 +81,34 @@ header {
     margin: 6px;
 }
 
+.blog-content {
+    display: flex;
+    padding: 0 0.5rem;
+    flex-wrap: wrap;
+}
+
+.blog-creator {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.blog-post {
+    display: flex;
+    background-color: #242f39;
+    max-width: 511px;
+    padding: 0.5rem;
+    font-size: 12px;
+    flex-direction: column;
+}
+
+.blog-text {
+    max-width: 511px;
+    padding: 0.5rem;
+    line-height: 1.5;
+}
+
 /* Utility */
-.position-top {}
+.stretched {
+    width: 100%;
+}
