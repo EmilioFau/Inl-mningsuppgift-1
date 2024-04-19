@@ -40,20 +40,43 @@ header {
     padding: 0 1rem;
 }
 
+.header-menu-middle {
+    display: none;
+}
+
 .header-menu-right {
     display: flex;
     padding: 0 1rem;
     align-items: center;
 }
 
-.container-header-links {
-    flex: 5;
-}
+
 
 .container {
     max-width: 80rem;
     margin: auto;
     width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.corner-div {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    bottom: 100px;
+    width: fit-content;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.497);
+    color: greenyellow;
+    border-radius: 6px;
+}
+
+.corner-text {
+    margin-right: 5px;
 }
 
 .search-content {
@@ -87,9 +110,10 @@ header {
     background: #242f39;
     align-items: center;
     justify-content: space-evenly;
-    border: 2px solid greenyellow;
+    border: 1px solid greenyellow;
     border-radius: 10px;
     margin: 6px;
+    height: 43px;
 }
 
 .blog-content {

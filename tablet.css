@@ -3,4 +3,37 @@
         color: grey;
         content: "Search for heroes, items, players, leagues, teams...";
     }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .header-menu-left {
+        flex: 1;
+    }
+
+    .header-menu-right {
+        flex: 1;
+    }
+
+    .header-menu-middle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0 1rem;
+        margin-top: 6px;
+        flex: 4;
+
+    }
+
+    .blog-creator {
+        display: flex;
+        align-items: flex-end;
+        font-size: 20px;
+
+    }
+
+    .no-dots {
+        list-style-type: none;
+    }
 }
