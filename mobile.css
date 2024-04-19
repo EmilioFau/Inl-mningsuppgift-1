@@ -15,7 +15,11 @@ header {
     background-color: #242f39;
     color: white;
     box-shadow: 0 0 3px rgba(10, 10, 10, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
+
 
 /* Objekt */
 
@@ -24,13 +28,13 @@ header {
     display: flex;
     justify-content: space-between;
     height: 32px;
-    top: 0;
+    margin-top: 0;
 }
 
 .header-menu-left {
     display: flex;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     background: red;
     gap: 0.5rem;
     padding: 0 1rem;
@@ -59,6 +63,11 @@ header {
     justify-content: space-around;
     float: center;
     padding: 0 0.5rem;
+    margin-top: 42px;
+}
+
+.search-bar::placeholder {
+    color: transparent;
 }
 
 .search-bar {
@@ -67,6 +76,8 @@ header {
     background: #1C242D;
     height: 40px;
     width: 100%;
+    color: white;
+    outline: none;
 }
 
 .search-button {
@@ -96,15 +107,15 @@ header {
 
 .blog-post {
     display: flex;
+    width: 100%;
     background-color: #242f39;
-    max-width: 511px;
     padding: 0.5rem;
     font-size: 12px;
     flex-direction: column;
 }
 
 .blog-text {
-    max-width: 511px;
+    width: 100%;
     padding: 0.5rem;
     line-height: 1.5;
 }

@@ -1,0 +1,6 @@
+@media (min-width: 769px) {
+    .search-bar::placeholder {
+        color: grey;
+        content: "Search for heroes, items, players, leagues, teams...";
+    }
+}
