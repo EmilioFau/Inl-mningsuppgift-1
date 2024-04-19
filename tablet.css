@@ -1,3 +1,7 @@
+.list-padding {
+    margin-right: 0.5rem
+}
+
 @media (min-width: 769px) {
     .search-bar::placeholder {
         color: grey;
@@ -5,7 +9,7 @@
     }
 
     .menu-icon {
-        display: none;
+        display: none !important;
     }
 
     .header-menu-left {
@@ -19,11 +23,14 @@
     .header-menu-middle {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        align-items: flex-start;
         padding: 0 1rem;
         margin-top: 6px;
         flex: 4;
+    }
 
+    .header-menu-middle li {
+        margin-right: 0.5rem;
     }
 
     .blog-creator {
